@@ -2,6 +2,9 @@
 
 # Material Design for Bootstrap 4 
 [![CDNJS version](https://img.shields.io/cdnjs/v/mdbootstrap.svg)](https://cdnjs.com/libraries/mdbootstrap)
+[![npm version](https://badge.fury.io/js/mdbootstrap.svg)](https://badge.fury.io/js/mdbootstrap)
+[![Bower version](https://badge.fury.io/bo/MDBootstrap.svg)](https://badge.fury.io/bo/MDBootstrap)
+
 
 400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files, templates, tutorials and many more.
 
@@ -77,7 +80,7 @@ Our society grows day by day. Visit our forum and check how it is to be a part o
 **Flex box**  
 MDB fully suppports Flex Box. You can forget about alignment issues.  
 
-**jQuery 3.1.1**  
+**jQuery 3.2.1**  
 MDB is integrated with newest jQuery, therefore you can use all the newest features which comes along with it.  
 
 **SASS files**  
@@ -116,6 +119,135 @@ A big **thank you to all our users** who are working with us to improve the soft
 
 
 # Version logs  
+
+### MDB 4.4.1
+
+**What's new**
+
+MDB 4.4.1 brings one major change - integration with freshly released Bootstra 4 beta.  
+
+You can download the new version of MDB Free on our website and for MDB Pro from your account page.  
+
+Note 1: If you already use MDB 4.4 beta, there are no breaking changes for you. You can update your project to 4.4.1 without fear of conflict. Backward compatibility is provided.  
+
+Note 2: If you use version MDB 4.3.2 or lower - read carefully the detailed list of changes in MDB 4.4 release note. These changes apply to MDB 4.4 and Bootstrap 4 beta as well.  
+
+### MDB 4.4.0
+That's the most significant update in the history of MDBootstrap. Together with the newest Bootstrap, we introduce you a brand new, completely rewritten MDB.
+
+We took a lot of effort to provide a backward compatibility with the previous versions. Nonetheless, some syntax changes are inevitable (mostly caused by Bootstrap changes).
+
+We've prepared a detailed list of syntax changes. The process of migration won't be painful, don't worry. However, we recommend you to read carefully a detailed list of changes. You can find it below.
+
+**What's new?** 
+
+Most important changes (backward compatibility provided):
+
+- BrandFlow - powerful and free marketing automation and analytics software for Bootstrap projects  
+
+- New, stack-like support forum  
+
+- Completely rewritten, with the highest standards, SASS code  
+
+- Updated and improved JS plugins  
+
+- Unified and simplified syntax  
+
+- Updated jQuery to 3.2.1  
+
+- Customization made easier  
+
+- Improved design  
+
+- Replaced Tether.js with Popper.js  
+
+- Dropped wow.js for our custom library (no syntax changes and fully backward compatibility)  
+
+- New, improved and extended documentation  
+
+- New tutorials updated to MDB 4.4 and Bootstrap Beta  
+
+
+Other changes (backward compatibility provided) :  
+
+- Removed unused variables and classes  
+
+- New, better parallax  
+
+- Updated colors  
+
+- Changed sidenav breakpoint from 910px to 992px  
+
+- Added _custom.scss file for easier sass customization  
+
+- Added new contact forms  
+
+- Added new progress bars  
+
+- Added reset buttons for inputs  
+
+- Introduced gradients  
+
+- Dropped _prefixes.scss for autoprefixer  
+
+- Dropped Normalize.css for Reboot.css (which is actually built upon Normalize.css)  
+
+- Added new cards  
+
+- Improved existing cards  
+
+- Improved enhanced bootstrap modals  
+
+- Improved pricings sections  
+
+- Recreated intros  
+
+- Improved dotted scrollspy  
+
+- Improved sidenav  
+
+- Added new versions of streaks  
+
+- Improved accordion  
+
+- Social list moved to deprecated  
+
+- Improved overlay cards  
+
+- Improved charts  
+
+- Improved charts  
+
+
+Changes that can cause issues to project built with previous versions of MDB:  
+
+- .navbar-expand instead of .navbar-toggleable  
+
+- Removed offset classes, so you should replace offset-*-* class with ml-*-auto. Read more in the new Grid Documentation  
+
+- Changed values of spacing utilities  
+
+- .card-body instead of .card-block  
+
+- Removed nearly all .hidden-* classes in favor of our newer .d-* display utilities  
+
+- Renamed .navbard-dark to .navbar-dark  
+
+- .btn-sm and .btn-lg instead of .btn-small and .btn-large for .btn-floating  
+
+- Droped cascading jumbotron for cascading card reverse for sake of syntax simplification and unification.  
+
+- Renamed .btn-mdb to .btn-mdb-color for better naming scheme  
+
+
+Coming soon:  
+
+- MDB Angular Admin Dashboard  
+
+- MDB React  
+
+- MDB Vue
+
 
 ### MDB 4.3.2
 MDB 4.3.2 brings 2 huge improvements - Enhanced Bootstrap Modals plugin and BrandFlow Software
